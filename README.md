@@ -29,7 +29,7 @@ Remember to also do the same for the S3 bucket that will store the static websit
 1) Set the Terraform backend
 Go to the `versions.tf` file and change the backend configuration to point to the S3 Bucket that you created manually to store the terraform state.
 
-2) Create your `terraform.tfstate` file
+2) Create your `terraform.tfvars` file
 You can read the `README_TERRAFORM.md` file to check all the variables accepted by the code.
 
 A possible example of the variables file:
